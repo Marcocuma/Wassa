@@ -183,7 +183,7 @@ public class Login extends Fragment {
                     ).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            if(task.isComplete()) {
+                            if(task.isSuccessful()) {
                                 ((MainActivity)getActivity()).login();
                                 Toast.makeText(getContext(), "Sesion iniciada correctamente", Toast.LENGTH_SHORT).show();
                                 Navigation.findNavController(getView()).navigate(R.id.action_login_to_nav_home);
