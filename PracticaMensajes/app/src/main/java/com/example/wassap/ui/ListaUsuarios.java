@@ -1,11 +1,10 @@
-package com.example.practicamensajes.ui;
+package com.example.wassap.ui;
 
 import android.content.Context;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -13,14 +12,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.practicamensajes.MainActivity;
-import com.example.practicamensajes.R;
-import com.example.practicamensajes.modelo.Usuario;
+import com.example.wassap.MainActivity;
+import com.example.wassap.R;
+import com.example.wassap.modelo.Usuario;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class ListaUsuarios extends Fragment implements MyUsuariosRecyclerViewAdapter.OnUsuarioClickListener {
 

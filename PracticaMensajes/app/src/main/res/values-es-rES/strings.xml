@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PracticaMensajes</string>
+    <string name="app_name">Wassap</string>
     <string name="navigation_drawer_open">Abre</string>
     <string name="navigation_drawer_close">Cierra</string>
     <string name="nav_header_title">Mensajes</string>

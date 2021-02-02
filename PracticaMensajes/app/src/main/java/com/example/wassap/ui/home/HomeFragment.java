@@ -1,29 +1,22 @@
-package com.example.practicamensajes.ui.home;
+package com.example.wassap.ui.home;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.practicamensajes.MainActivity;
-import com.example.practicamensajes.R;
-import com.example.practicamensajes.modelo.Mensaje;
-import com.example.practicamensajes.modelo.Usuario;
-import com.example.practicamensajes.ui.ChatMessageFragment;
-import com.example.practicamensajes.ui.MyChatMessageRecyclerViewAdapter;
-import com.example.practicamensajes.ui.MyUsuariosRecyclerViewAdapter;
+import com.example.wassap.MainActivity;
+import com.example.wassap.R;
+import com.example.wassap.modelo.Usuario;
+import com.example.wassap.ui.MyUsuariosRecyclerViewAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;

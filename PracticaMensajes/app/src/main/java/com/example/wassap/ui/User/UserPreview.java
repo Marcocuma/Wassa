@@ -1,4 +1,4 @@
-package com.example.practicamensajes.ui.User;
+package com.example.wassap.ui.User;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -16,12 +16,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.example.practicamensajes.MainActivity;
-import com.example.practicamensajes.R;
-import com.example.practicamensajes.modelo.Usuario;
+import com.example.wassap.R;
+import com.example.wassap.modelo.Usuario;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class UserPreview extends Fragment {

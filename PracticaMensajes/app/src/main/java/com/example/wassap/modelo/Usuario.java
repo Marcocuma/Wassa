@@ -1,6 +1,4 @@
-package com.example.practicamensajes.modelo;
-
-import android.net.Uri;
+package com.example.wassap.modelo;
 
 import java.io.Serializable;
 

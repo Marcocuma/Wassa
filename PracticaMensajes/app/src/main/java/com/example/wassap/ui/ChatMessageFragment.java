@@ -1,4 +1,4 @@
-package com.example.practicamensajes.ui;
+package com.example.wassap.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,7 +7,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -20,10 +19,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.practicamensajes.MainActivity;
-import com.example.practicamensajes.R;
-import com.example.practicamensajes.modelo.Mensaje;
-import com.example.practicamensajes.modelo.Usuario;
+import com.example.wassap.R;
+import com.example.wassap.modelo.Mensaje;
+import com.example.wassap.modelo.Usuario;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -33,8 +31,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 public class ChatMessageFragment extends Fragment {
 

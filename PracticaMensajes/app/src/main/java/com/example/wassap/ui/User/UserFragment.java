@@ -1,7 +1,6 @@
-package com.example.practicamensajes.ui.User;
+package com.example.wassap.ui.User;
 
 import android.content.DialogInterface;
-import android.database.sqlite.SQLiteConstraintException;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,13 +18,11 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
 import com.bumptech.glide.Glide;
-import com.example.practicamensajes.MainActivity;
-import com.example.practicamensajes.R;
-import com.example.practicamensajes.modelo.Usuario;
+import com.example.wassap.MainActivity;
+import com.example.wassap.R;
+import com.example.wassap.modelo.Usuario;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
-
-import java.text.ParseException;
 
 public class UserFragment extends Fragment {
 

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.practicamensajes.ui.home.HomeFragment"
+        android:name="com.example.wassap.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -17,13 +17,13 @@
 
     <fragment
         android:id="@+id/nav_user"
-        android:name="com.example.practicamensajes.ui.User.UserFragment"
+        android:name="com.example.wassap.ui.User.UserFragment"
         android:label="@string/user"
         tools:layout="@layout/fragment_user" />
 
     <fragment
         android:id="@+id/login"
-        android:name="com.example.practicamensajes.ui.Login"
+        android:name="com.example.wassap.ui.Login"
         android:label="@string/login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/listaUsuarios"
-        android:name="com.example.practicamensajes.ui.ListaUsuarios"
+        android:name="com.example.wassap.ui.ListaUsuarios"
         android:label="@string/new_chat"
         tools:layout="@layout/fragment_lista_usuarios_list" >
         <action
@@ -42,7 +42,7 @@
     <action android:id="@+id/action_global_listaUsuarios" app:destination="@id/listaUsuarios" />
     <fragment
         android:id="@+id/chatMessageFragment"
-        android:name="com.example.practicamensajes.ui.ChatMessageFragment"
+        android:name="com.example.wassap.ui.ChatMessageFragment"
         android:label="@string/chat" >
         <action
             android:id="@+id/action_chatMessageFragment_to_userPreview"
@@ -50,6 +50,6 @@
     </fragment>
     <fragment
         android:id="@+id/userPreview"
-        android:name="com.example.practicamensajes.ui.User.UserPreview"
+        android:name="com.example.wassap.ui.User.UserPreview"
         android:label="@string/user_profile" /><action android:id="@+id/action_global_login" app:destination="@id/login"/>
 </navigation>

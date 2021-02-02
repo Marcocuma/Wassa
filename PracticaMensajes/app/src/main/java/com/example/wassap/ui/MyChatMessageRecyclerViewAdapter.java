@@ -1,24 +1,19 @@
-package com.example.practicamensajes.ui;
+package com.example.wassap.ui;
 
-import androidx.annotation.RequiresApi;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
-import android.os.Build;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TableRow;
 import android.widget.TextView;
 
-import com.example.practicamensajes.R;
-import com.example.practicamensajes.modelo.Mensaje;
+import com.example.wassap.R;
+import com.example.wassap.modelo.Mensaje;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MyChatMessageRecyclerViewAdapter extends RecyclerView.Adapter<MyChatMessageRecyclerViewAdapter.ViewHolder> {
 

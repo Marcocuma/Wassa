@@ -1,6 +1,5 @@
-package com.example.practicamensajes.ui;
+package com.example.wassap.ui;
 
-import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
@@ -11,9 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.practicamensajes.MainActivity;
-import com.example.practicamensajes.R;
-import com.example.practicamensajes.modelo.Usuario;
+import com.example.wassap.R;
+import com.example.wassap.modelo.Usuario;
 
 import java.util.List;
 

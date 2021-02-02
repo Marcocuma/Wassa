@@ -1,4 +1,4 @@
-package com.example.practicamensajes;
+package com.example.wassap;
 
 import org.junit.Test;
 

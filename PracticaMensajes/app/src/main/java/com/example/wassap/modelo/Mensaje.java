@@ -1,4 +1,4 @@
-package com.example.practicamensajes.modelo;
+package com.example.wassap.modelo;
 
 public class Mensaje {
     String mensaje, origen, destino;
