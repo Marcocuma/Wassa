@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticaMensajes</string>
+    <string name="navigation_drawer_open">Abre</string>
+    <string name="navigation_drawer_close">Cierra</string>
+    <string name="nav_header_title">Mensajes</string>
+    <string name="nav_header_subtitle">App de mensajeria</string>
+    <string name="nav_header_desc">Cabecera</string>
+    <string name="action_settings">Opciones</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Carrousel</string>
+    <string name="login">Login</string>
+    <string name="register">Registrarse</string>
+    <string name="user">Usuario</string>
+    <string name="phone">Telefono</string>
+    <string name="update">Actualizar</string>
+    <string name="account_type">Tipo de cuenta</string>
+    <string name="error_username">El nombre de usuario no puede estar vacío</string>
+    <string name="confirmar_update">De verdad quieres actualizar los datos?</string>
+    <string name="update_user">Actualizar usuario</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="wait_data">Espere a que la aplicacion cargue los datos</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="confirm_logout">¿Confirma cerrar sesión?</string>
+    <string name="exit">Salir</string>
+    <string name="confirm_exit">¿Confirma salir de la aplicación?</string>
+    <string name="new_chat">Nuevo chat</string>
+    <string name="chat">Chat</string>
+    <string name="user_profile">Perfil de usuario</string>
+</resources>

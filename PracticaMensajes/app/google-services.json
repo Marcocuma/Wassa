@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "37869080375",
+    "firebase_url": "https://practicacontactos-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "practicacontactos",
+    "storage_bucket": "practicacontactos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37869080375:android:e98eaf23f82117cec094b2",
+        "android_client_info": {
+          "package_name": "com.example.practicamensajes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37869080375-ln9ap7lcdeiva5ip01ohiolm3sg9eo47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.practicamensajes",
+            "certificate_hash": "8e18ae7f0edabff907b227436bc42a876fe7ae84"
+          }
+        },
+        {
+          "client_id": "37869080375-i4bd6acpl4jdvc0urohmouo11t03utmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGVfFhIwU0tkMseh7IJObblrYTm_u-HyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37869080375-i4bd6acpl4jdvc0urohmouo11t03utmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
